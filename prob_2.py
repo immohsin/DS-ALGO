@@ -1,5 +1,4 @@
 from linkedlist import SinglyLinkedList
-import copy
 
 # Delete nth node from end of the linked list
 def bruteForceDeleteNode():

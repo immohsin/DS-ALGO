@@ -6,8 +6,8 @@ class Node:
         self.data = data
 
 class SinglyLinkedList:
-	def __init__(self, head=None):
-		self.head = head
+	def __init__(self):
+		self.head = None
 
 	# Add Node at the beginning 
 	def addFront(self, data):
