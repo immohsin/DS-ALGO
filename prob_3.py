@@ -1,4 +1,4 @@
-#  Find if Linked List is either null-terminnated or ends in cycle
+#  Find if Linked List is either null-terminated or ends in cycle
 
 from linkedlist import SinglyLinkedList
 
@@ -51,8 +51,6 @@ def effcientApproach(ll):
 		if fast == slow:
 			return "Linked List has cycle"
 	return "Linked List has no cyle"
-
-
 
 if __name__ == '__main__':
 	ll = createList()
